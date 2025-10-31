@@ -1,0 +1,77 @@
+
+:root {
+
+    --color-primary: #A62F14;     
+    --color-tertiary: #818C2E;    
+
+    --color-bg-main: #F2F2F2;     
+ 
+    --color-text-dark: #78350F;    
+    --color-text-medium: #324001;  
+    --color-text-light: #818C2E;   
+    
+    --color-white: #FFFFFF;
+    --color-border: #F59E0B;
+}
+
+body {
+    font-family: Baskerville, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-dark);
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--color-tertiary);
+}
+
+nav {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
